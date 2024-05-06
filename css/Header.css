@@ -1,0 +1,126 @@
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.global_bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 63px;
+
+}
+.blackline{
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    border-bottom: lightslategrey 1px solid;
+    width: 100%;
+}
+
+.header{
+    max-width: 1280px;
+    margin: 0;
+    padding: 0;
+
+
+}
+.toolsbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+ul{
+    margin: 0;
+}
+li{
+    display: block;
+    line-height: 1.5;
+    font-size: 13px;
+    justify-self: center;
+    align-self: center;
+}
+
+.date\&time{
+    font-size: .8rem;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-family: 'Chomsky', sans-serif;
+    font-size: 1.5rem;
+}
+
+.sisb{
+    width: 245px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.subscribe{
+    background-color: yellow;
+    border: none;
+    padding: 1px 50px;
+    font-size: 35px;
+    text-align: center;
+    border-radius: 4px;
+}
+.top{
+    color: black;
+    font-size: 15px;
+    height: 15px;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    text-align: center;
+
+}
+.sub{
+    padding-top: 10px;
+    font-family: "", serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 11px;
+}
+.signin{
+    font-size: 13px;
+}
+
+.top1{
+    color:black;
+    font-size: 12px;
+    font-family: "", serif;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    font-weight: lighter;
+}
+.sub1{
+    padding-top: 10px;
+    font-family: "", serif;
+    font-weight: 200;
+    font-size: 12px;
+    align-items: start;
+
+}
+.burgersearch{
+    display:flex;
+    justify-content:space-between;
+    width:60px;
+}
+
+
+
+
