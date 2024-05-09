@@ -10,7 +10,7 @@ window.addEventListener("scroll", function() {
         document.getElementById("press").style.height = "45px";
         document.getElementById("tool").style.transform = "translateY(-50px)";
         document.getElementById("black").style.height= "63px";
-        document.getElementById("line").style.transform = "translateY(-45px)";
+        document.getElementById("line").style.transform= "translateY(-47px)";
     } else {
         disappearElements.forEach(function(element) {
             element.style.opacity = "1";
@@ -19,7 +19,8 @@ window.addEventListener("scroll", function() {
         document.getElementById("press").style.height = "56px";
         document.getElementById("tool").style.transform = "translateY(0)";
         document.getElementById("black").style.height= "auto";
-        document.getElementById("line").style.transform = "translateY(0)";
+        document.getElementById("line").style.transform= "translateY(0)";
+
     }
 });
 
