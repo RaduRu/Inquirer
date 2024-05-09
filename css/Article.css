@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    padding-bottom: 40px;
 }
 .titlew1{
     padding-top: 10px;
@@ -123,5 +124,61 @@
 .blocknews{
     display: flex;
     flex-direction: column;
+}
+
+.nationworld{
+    padding-top:2px;
+    padding-bottom: 50px;
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+    display:flex;
+    flex-direction: column;
+
+}
+.nationworldtitle{
+    font-family: "Arial Narrow";
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.nationworldheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+.More{
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 2px;
+}
+.arrow{
+    padding-top: 5px;
+}
+.columns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 20%;
+}
+.container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.textcont{
+    font-size: 25px;
+    padding-left:0;
+    font-weight: bold;
+    padding-top: 0;
+
 }
 

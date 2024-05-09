@@ -1,5 +1,6 @@
 
-.body {
+
+body{
     margin: 0;
     padding: 0;
 }
@@ -15,30 +16,40 @@
 .blackline{
     background-color: white;
     position: fixed;
-    display: flex;
-    justify-content: center;
-    border-bottom: lightslategrey 1px solid;
     width: 100%;
+    padding-top: 7px;
+    transition: height 0.5s ease-in-out;
+}
+#line{
+    color: lightslategrey;
+    transition: transform 0.5s ease-in-out;
 }
 
 .header{
     max-width: 1280px;
-    margin: 0;
-    padding: 0;
-
-
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
 .toolsbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
     margin-top: 15px;
     margin-bottom: 10px;
-    align-items: center;
+    transition: transform 0.5s ease-in-out;
+
+
 }
 .list{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-column-start: 2;
+    grid-column-end: 10;
+
 
 }
 ul{
@@ -50,16 +61,21 @@ li{
     font-size: 13px;
     justify-self: center;
     align-self: center;
+
 }
 
 .date\&time{
     font-size: .8rem;
     margin: 0;
     padding: 0;
+    flex-basis: 20%;
 }
 .logo{
     font-family: 'Chomsky', sans-serif;
     font-size: 1.5rem;
+    flex-basis: 50%;
+    text-align: center;
+    transition: font-size 0.5s ease-in-out;
 }
 
 .sisb{
@@ -69,27 +85,33 @@ li{
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
+    flex-basis: 19%;
 }
 
 .subscribe{
-    background-color: yellow;
+    background-color: #fce803;
     border: none;
-    padding: 1px 50px;
-    font-size: 35px;
+    padding:1px 45px;
     text-align: center;
     border-radius: 4px;
+    transition: height 0.5s ease-in-out;
+
 }
+
+
+
+
 .top{
     color: black;
     font-size: 15px;
-    height: 15px;
+    height: 8px;
     margin-top: 1rem;
     margin-bottom: -1rem;
     text-align: center;
 
 }
 .sub{
-    padding-top: 10px;
+    padding-top: 15px;
     font-family: "", serif;
     font-weight: lighter;
     text-align: center;
@@ -119,6 +141,13 @@ li{
     display:flex;
     justify-content:space-between;
     width:60px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.disappear{
+    transition: opacity 0.3s ease-in-out;
+
 }
 
 
