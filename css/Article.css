@@ -184,6 +184,31 @@
     padding-left:0;
     font-weight: bold;
     padding-top: 10px;
-
 }
+
+.bigpartcontainer{
+    width: 80%;
+}
+
+.underbigpartone{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.bigpartone{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.toparticle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.smallpart{
+    padding-top: 25px;
+}
+
+
+
 
