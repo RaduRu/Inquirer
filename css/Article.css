@@ -189,6 +189,10 @@
 .bigpartcontainer{
     width: 80%;
 }
+.toparticle{
+    border-bottom: lightslategrey 1px solid;
+    padding-bottom: 15px;
+}
 
 .underbigpartone{
     font-size: 20px;
@@ -199,6 +203,9 @@
     font-weight: bold;
     padding-top: 25px;
 }
+.writer{
+    padding-top: 20px;
+}
 
 .toparticle{
     display: flex;
@@ -208,7 +215,41 @@
 .smallpart{
     padding-top: 25px;
 }
-
+.block{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rightblock{
+    width: 50%;
+}
+.leftblock{
+    width: 50%;
+}
+.sxtext{
+    width:70%;
+}
+.blockone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blockimage{
+    padding-right: 15px;
+    padding-top: 15px;
+}
+.sxtext{
+    padding-top:15px;
+}
+.titleblock{
+    font-size: 20px;
+    font-weight: bold;
+}
+.theregion{
+    border-bottom: black 2px solid;
+    padding-bottom: 30px;
+}
 
 
 
