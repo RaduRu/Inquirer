@@ -63,11 +63,6 @@
     padding-left: 35px;
 
 }
-.containercolumns{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
 
 .ImageArticle{
     display: flex;
@@ -95,8 +90,11 @@
     border-top: black 3px solid;
 }
 .box{
-    padding-top: 15px;
-    height:70px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 16px;
+    height:50px;
     width: 100%;
     border-bottom: black 1px solid;
 }
@@ -115,27 +113,6 @@
     padding-left: 15px;
     font-size: 15px;
 }
-
-@media (max-width: 480px) {
-    .toppage {
-        flex-direction: column;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .blocknews{
     display: flex;
@@ -208,15 +185,15 @@
 }
 
 
-/* CSS for tablet */
-@media (max-width: 1024px) {
+
+@media screen and (max-width: 1024px) {
     .container .columns {
         width: 50%;
     }
 }
 
-/* CSS for mobile */
-@media (max-width: 768px) {
+
+@media screen and (max-width: 800px) {
     .container {
         flex-direction: column;
     }
@@ -304,9 +281,9 @@
 }
 
 .blockone:not(:last-child) {
-    border-bottom: 1px solid #000; /* Adjust color and thickness as needed */
-    padding-bottom: 10px; /* Adjust as needed */
-    margin-bottom: 10px; /* Adjust as needed */
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -332,9 +309,7 @@
     align-items: center;
     width:50%;
 }
-
-
-@media (max-width: 768px) and (min-width: 481px) {
+@media screen and (max-width: 800px) and (min-width: 481px) {
     .block {
         flex-direction: column;
     }
@@ -353,7 +328,7 @@
 }
 
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .block {
         flex-direction: column;
     }
@@ -371,6 +346,9 @@
         flex-direction: column;
     }
 }
+
+
+
 
 
 
@@ -448,8 +426,10 @@
     border-bottom: black 2px solid;
     padding-bottom: 30px;
 }
+
+
 /* CSS for tablet */
-@media (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
     .sportcolumn, .gridlittle {
         width: 100%;
     }
@@ -460,7 +440,7 @@
 }
 
 /* CSS for mobile */
-@media (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .content {
         flex-direction: column;
     }
@@ -529,7 +509,7 @@
 }
 
 /* CSS for tablet */
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .estatebox, .estateboxlast {
         flex-direction: row;
         align-items: center;
@@ -537,17 +517,17 @@
     }
 
     .estatebox img, .estateboxlast img {
-        width: 70%; /* Increase this value to make the image bigger */
-        margin-right: 2px; /* Decrease this value to bring the image closer to the text */
+        width: 80%;
+        margin-right: 2px;
     }
 
     .titlestate, .subtitlestate {
-        font-size: 80%; /* Adjust this value to change the font size */
+        font-size: 90%;
     }
 }
 
 /* CSS for mobile */
-@media (max-width: 480px) {
+@media screen and (max-width: 800px) {
     .estatebox, .estateboxlast {
         flex-direction: row;
         align-items: center;
@@ -555,12 +535,12 @@
     }
 
     .estatebox img, .estateboxlast img {
-        width: 50%; /* Increase this value to make the image bigger */
-        margin-right: 1px; /* Decrease this value to bring the image closer to the text */
+        width: 60%;
+        margin-right: 1px;
     }
 
     .titlestate, .subtitlestate {
-        font-size: 60%; /* Adjust this value to change the font size */
+        font-size: 70%;
     }
 }
 
