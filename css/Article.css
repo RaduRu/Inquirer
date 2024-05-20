@@ -1,3 +1,21 @@
+*{
+    cursor: pointer;
+}
+
+.titlew1:hover,
+.titlew2:hover,
+.Articlebottom:hover,
+.firstbox:hover,
+.bigpartone:hover,
+.titleblock:hover,
+.titlesport:hover,
+.small_title:hover,
+.titlestate:hover,
+.textcont:hover{
+    color: blue;
+}
+
+
 .main{
     border-top: 200px solid white;
     max-width: 1280px;
