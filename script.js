@@ -8,7 +8,7 @@ window.addEventListener("resize" , function(){
         window.addEventListener("scroll", function () {
             if (window.scrollY > 20) {
                 disappearElements.forEach(function (element) {
-                    element.style.opacity = "0";
+                    element.style.display = "none";
                 });
                 document.getElementById("title").style.fontSize = "1.1rem";
                 document.getElementById("press").style.height = "45px";
@@ -17,7 +17,7 @@ window.addEventListener("resize" , function(){
                 document.getElementById("line").style.transform = "translateY(-47px)";
             } else {
                 disappearElements.forEach(function (element) {
-                    element.style.opacity = "1";
+                    element.style.display = "block";
                 });
                 document.getElementById("title").style.fontSize = "1.5rem";
                 document.getElementById("press").style.height = "56px";

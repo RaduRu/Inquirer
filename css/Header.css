@@ -10,7 +10,6 @@ body{
         justify-content: space-between;
         align-items: center;
         height: 63px;
-
 }
 .blackline{
     background-color: white;
@@ -20,18 +19,10 @@ body{
     transition: transform 0.5s ease-in-out;
     border-bottom: 1px solid black;
 }
-/*#line{
-    border-top: 1px solid black;
-    transition: transform 0.5s ease-in-out;
-    margin:0;
-}*/
 
 .header{
     max-width: 1280px;
     margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
-
 }
 
 .toolsbar{
@@ -40,9 +31,8 @@ body{
     margin-top: 15px;
     margin-bottom: 10px;
     transition: transform 0.5s ease-in-out;
-
-
 }
+
 .list{
     display: flex;
     justify-content: space-between;
@@ -51,9 +41,8 @@ body{
     flex-wrap: nowrap;
     grid-column-start: 2;
     grid-column-end: 10;
-
-
 }
+
 ul{
     margin: 0;
 }
@@ -63,7 +52,6 @@ li{
     font-size: 13px;
     justify-self: center;
     align-self: center;
-
 }
 
 .date\&time{
@@ -72,6 +60,7 @@ li{
     padding: 0;
     flex-basis: 20%;
 }
+
 .logo{
     font-family: 'Chomsky', sans-serif;
     font-size: 1.5rem;
@@ -99,9 +88,6 @@ li{
 
 }
 
-
-
-
 .top{
     color: black;
     font-size: 15px;
@@ -109,8 +95,8 @@ li{
     margin-top: 1rem;
     margin-bottom: -1rem;
     text-align: center;
-
 }
+
 .sub{
     padding-top: 15px;
     font-family: "", serif;
@@ -118,6 +104,7 @@ li{
     text-align: center;
     font-size: 11px;
 }
+
 .signin{
     font-size: 13px;
     padding-right: 10px;
@@ -148,7 +135,7 @@ li{
 }
 
 .disappear{
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity  0.5s ease-in-out;
 
 }
 .appear{
@@ -170,6 +157,7 @@ li{
     }
     #tool{
         transform: translateY(-50px);
+
     }
     #black{
         height: 63px;
@@ -184,6 +172,7 @@ li{
         display: block;
         padding-bottom: 5px;
     }
+
 
 
 }

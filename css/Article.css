@@ -80,7 +80,7 @@
     width:100%;
     display: flex;
     flex-direction: column;
-    padding-right: 20px;
+
 }
 .Articlebottom{
     font-size: 25px;
@@ -112,14 +112,6 @@
         flex-basis: 100%;
         max-width: 100%;
         margin-bottom: 20px;
-    }
-    .firstcolumn, .thelatest{
-        padding-left: 25px;
-    }
-    .secondcolumn{
-        padding-left: 25px;
-
-
     }
 }
 
@@ -338,6 +330,9 @@
     }
     .rightblock, .leftblock {
         width: 100%;
+        border: none;
+        margin: 0;
+        padding: 0;
     }
     .smallpart{
         width: 70%;
@@ -351,6 +346,7 @@
         padding-bottom: 10px;
         margin-bottom: 10px;
     }
+
     .bigpartone {
         font-size: 25px;
     }
