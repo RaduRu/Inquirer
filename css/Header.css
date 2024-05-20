@@ -79,13 +79,12 @@ li{
 }
 
 .sisb{
-    width: 245px;
     display: flex ;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    flex-basis: 19%;
+    flex-basis: 25%;
 }
 
 .subscribe{
@@ -119,6 +118,7 @@ li{
 }
 .signin{
     font-size: 13px;
+    padding-right: 10px;
 }
 
 .top1{
@@ -149,7 +149,57 @@ li{
     transition: opacity 0.3s ease-in-out;
 
 }
+.appear{
+    display: none;
+}
 
+@media screen and (max-width: 1280px){
+    #title{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #title{
+        font-size: 1.1rem;
+    }
+    #press{
+        display: none;
+    }
+    #tool{
+        transform: translateY(-50px);
+    }
+    #black{
+        height: 63px;
+    }
+    #line{
+        transform: translateY(-47px);
+    }
+    .disappear{
+        opacity: 0;
+    }
+    .appear{
+        display: block;
+        padding-bottom: 5px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 800px){
+    #title{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 725px){
+    #title{
+        font-size: 0.8rem;
+    }
+    .signin{
+        padding-right: 0;
+    }
+}
 
 
 
