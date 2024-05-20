@@ -3,12 +3,12 @@ var disappearElements = document.querySelectorAll(".disappear");
 
 
 
-window.addEventListener("resize" , function(){
+
     if(window.innerWidth>1024){
         window.addEventListener("scroll", function () {
             if (window.scrollY > 20) {
                 disappearElements.forEach(function (element) {
-                    element.style.display = "none";
+                    element.style.opacity = "0";
                 });
                 document.getElementById("title").style.fontSize = "1.1rem";
                 document.getElementById("press").style.height = "45px";
@@ -17,7 +17,7 @@ window.addEventListener("resize" , function(){
                 document.getElementById("line").style.transform = "translateY(-47px)";
             } else {
                 disappearElements.forEach(function (element) {
-                    element.style.display = "block";
+                    element.style.opacity = "1";
                 });
                 document.getElementById("title").style.fontSize = "1.5rem";
                 document.getElementById("press").style.height = "56px";
@@ -30,7 +30,7 @@ window.addEventListener("resize" , function(){
     } else {
         window.removeEventListener("scroll");
     }
-});
+
 
 
 
