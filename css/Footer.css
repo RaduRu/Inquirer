@@ -17,26 +17,7 @@
     align-items: center;
     flex-basis:10%;
 }
-/* CSS for desktop */
-.footer{
-    background-color: #eee;
-    padding: 22px 120px;
-}
 
-.footer-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-}
-
-.footer-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-basis:10%;
-}
 
 /* CSS for tablet */
 @media (max-width: 768px) {
